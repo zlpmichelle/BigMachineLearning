@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/stanfordsolr.iml" filepath="$PROJECT_DIR$/stanfordsolr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigMachineLearning.iml" filepath="$PROJECT_DIR$/BigMachineLearning.iml" />
     </modules>
   </component>
 </project>
