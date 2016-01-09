@@ -2,7 +2,7 @@
  * Created by Michelle on 1/6/15.
  */
 
-package org.machine.learning.app.flight
+package org.machine.learning.app
 
 import breeze.linalg.{DenseMatrix => BDM, DenseVector => BDV, argmax => brzArgmax, sum => brzSum}
 import breeze.stats.distributions.Multinomial

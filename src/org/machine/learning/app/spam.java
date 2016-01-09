@@ -1,4 +1,4 @@
-package org.machine.learning.app.flight; /**
+package org.machine.learning.app; /**
  * Created by Michelle on 1/17/15.
  */
 

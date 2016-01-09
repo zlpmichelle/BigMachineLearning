@@ -1,6 +1,6 @@
 
 
-package org.machine.learning.app.flight
+package org.machine.learning.app
 
 import org.apache.spark.annotation.Experimental
 import org.apache.spark.api.java.JavaRDD

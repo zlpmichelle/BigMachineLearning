@@ -1,4 +1,4 @@
-package org.machine.learning.app.flight
+package org.machine.learning.app
 
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.mllib.clustering.KMeans
