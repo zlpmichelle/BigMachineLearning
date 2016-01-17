@@ -126,7 +126,6 @@
     <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-xc:1.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.avro:avro:1.7.6-cdh5.6.0" level="project" />
-    <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.4" level="project" />
     <orderEntry type="library" name="Maven: com.jcraft:jsch:0.1.42" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-client:2.7.1" level="project" />
@@ -157,6 +156,21 @@
     <orderEntry type="library" name="Maven: com.linkedin:haivvreo:1.0.7-cdh-4" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.3" level="project" />
     <orderEntry type="library" name="Maven: net.sf.jopt-simple:jopt-simple:4.5" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.json:json-lib:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.scalanlp:breeze-math_2.10:0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.scalanlp:breeze-core_2.10:0.4" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe:scalalogging-log4j_2.10:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.0-beta3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.0-beta4" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.netlib-java:netlib-java:0.9.3" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jblas:jblas:1.2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.rwl:jtransforms:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: stanford:stanford-segmenter:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: stanford:stanford-segmenter-javadoc:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: stanford:stanford-segmenter-sources:3.4.1" level="project" />
     <orderEntry type="library" name="Maven: ant-contrib:ant-contrib:1.0b3" level="project" />
     <orderEntry type="library" name="Maven: ant:ant:1.5" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.9" level="project" />
@@ -167,8 +181,8 @@
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-jxc:2.2.11" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-xjc:2.2.11" level="project" />
     <orderEntry type="library" name="Maven: org.apache.kafka:kafka_2.11:0.9.1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:0.9.1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.101tec:zkclient:0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:0.9.1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.yammer.metrics:metrics-core:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-smartcn:4.10.3-cdh5.6.0" level="project" />
@@ -287,12 +301,9 @@
     <orderEntry type="library" name="Maven: com.twitter:parquet-jackson:1.5.0-cdh5.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-graphx_2.10:1.5.0-cdh5.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.github.fommil.netlib:core:1.1.2" level="project" />
-    <orderEntry type="library" name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1" level="project" />
     <orderEntry type="library" name="Maven: org.scalanlp:breeze_2.10:0.11.2" level="project" />
     <orderEntry type="library" name="Maven: org.scalanlp:breeze-macros_2.10:0.11.2" level="project" />
     <orderEntry type="library" name="Maven: org.scalamacros:quasiquotes_2.10:2.0.0-M8" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.3" level="project" />
-    <orderEntry type="library" name="Maven: com.github.rwl:jtransforms:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.spire-math:spire_2.10:0.7.4" level="project" />
     <orderEntry type="library" name="Maven: org.spire-math:spire-macros_2.10:0.7.4" level="project" />
     <orderEntry type="library" name="Maven: org.jpmml:pmml-model:1.1.15" level="project" />

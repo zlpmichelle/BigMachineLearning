@@ -200,11 +200,42 @@
             <artifactId>joda-time</artifactId>
             <version>2.3</version>
         </dependency>
-        
+
         <dependency>
             <groupId>net.sf.jopt-simple</groupId>
             <artifactId>jopt-simple</artifactId>
             <version>4.5</version>
+        </dependency>
+
+        <!-- stanford lib dependency-->
+        <dependency>
+            <groupId>net.sf.json</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>2.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scalanlp</groupId>
+            <artifactId>breeze-math_2.10</artifactId>
+            <version>0.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>stanford</groupId>
+            <artifactId>stanford-segmenter</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>stanford</groupId>
+            <artifactId>stanford-segmenter-javadoc</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>stanford</groupId>
+            <artifactId>stanford-segmenter-sources</artifactId>
+            <version>3.4.1</version>
         </dependency>
 
         <!-- lib dependency-->

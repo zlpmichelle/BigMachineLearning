@@ -5,12 +5,9 @@
 package org.machine.learning.app
 
 import breeze.linalg.{DenseMatrix => BDM, DenseVector => BDV, argmax => brzArgmax, sum => brzSum}
-import breeze.stats.distributions.Multinomial
-import org.apache.spark.{SparkContext, SparkConf}
-import org.apache.spark.mllib.classification.{NaiveBayeszlp, NaiveBayes}
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.mllib.regression.LabeledPoint
-import org.apache.spark.mllib.linalg.{DenseVector, SparseVector, Vector}
+import org.apache.spark.{SparkConf, SparkContext}
 
 
 object bayes {
@@ -64,12 +61,12 @@ object bayes {
 
     println("-------------- result maxtrix: ")
     val onev = Vectors.dense(2014.0,10.0,19.0,7.0,19.0,20.0,4.0,0.0,127.0,100.0)
-    val v = model.brzPi + model.brzTheta * (onev.toBreeze)
-    for(i <- 0 until v.size){
-      print(v(i))
-    }
+//    val v = model.brzPi + model.brzTheta * (onev.toBreeze)
+//    for(i <- 0 until v.size){
+//      print(v(i))
+//    }
 
-    println("----brzArgmax(v): " + brzArgmax(v));
+//    println("----brzArgmax(v): " + brzArgmax(v));
 
 
     println("=======for breeze")
